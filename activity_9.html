@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .container {
+            background-color: hwb(180 73% 12%);
+            padding: 40px;
+            width: 400px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        form {
+            align-items: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 1.5rem;
+        }
+        select {
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            margin-bottom: 5px;
+            width: 100%;
+        }
+        button {
+            display: block;
+            padding: 12px 25px;
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+            color: white;
+            width: 100%;
+            background: green;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Registration Form</h1>
+      <form action="">
+        <label for="">Name</label>
+        <input type="text" />
+        <label for="">Email</label>
+        <input type="email" />
+        <label for="">Password</label>
+        <input type="password" />
+        <label for="">Gender</label>
+        <select name="" id="">
+          <option value="">select</option>
+          <option value="">Male</option>
+          <option value="">Female</option>
+          
+        </select>
+        <label for="">Bio</label>
+        <textarea name="" id="" rows="6"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
